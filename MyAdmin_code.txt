@@ -1,0 +1,41 @@
+CREATE TABLE Alunos (
+     PessoaID int,
+     PrimeiroNome varchar(255),
+     Sobrenome varchar(255),
+     Idade varchar(255)
+);
+*****************************************************************************************************************
+INSERT INTO Alunos (PessoaID, PrimeiroNome, Sobrenome, Idade)
+VALUES
+('1', 'Vitor', 'Hugo', '16'),
+('2', 'Annely', 'Carrero', '16'),
+('3','Gabriela', 'Macedo', '16'),
+('4','Heloisa', 'Nunes', '17'),
+('5', 'Isabella', 'Maria', '16'),
+('6', 'Milleny', 'Leopoldino', '16'),
+('7','Vinicius', 'Moura', '16'),
+('8','Evelyn', 'Souza', '17'),
+('9', 'Emmily', 'Oliveira', '16'),
+('10', 'Gustavo', 'Argentino', '16'),
+('11','Gabriel', 'Barbosa', '16'),
+('12','João', 'Guilherme', '17'),
+('13', 'Enzo', 'Santos', '16'),
+('14', 'Ryan', 'Brandão', '16'),
+('15','Daiana','Santos', '16'),
+('16','Isabella', 'Bertolo', '17'),
+('17', 'Geovana', 'Ferreira',  '16'),
+('18', 'Geovanna', 'Nacimento', '16'),
+('19','Caroline', 'Silva', '16'),
+('20','Isadora', 'Souza', '17'),
+('21', 'Livia', 'Oliveira', '16'),
+('22', 'Victor', 'Calori', '16'),
+('23','Thiago', 'Lima', '16'),
+('24','Isabella', 'Almeida', '17'),
+('25', 'Pietra', 'Basso', '16'),
+('26', 'Andrey', 'Tristão', '16'),
+('27','Pedro', 'Pizarro', '16'),
+('28','Hugo', 'Romoda', '17'),
+('29', 'Wesley', 'Batista', '16'),
+('30', 'Adrielly', 'Inocêncio', '16'),
+('31','Ollyver', 'Osório', '16'),
+('32','Alice', 'Campos', '17');
